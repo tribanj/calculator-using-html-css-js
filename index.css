@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(69, 101, 104);
+    display: flex;
+    justify-content: space-around;
+}
+
+.calci {
+    width: 500px;
+    /* background-color: black; */
+    background-image: url('/World\'s\ top\ 20\ most\ beautiful\ women\ of\ 2022\ -\ Wonderslist.jfif');
+    background-size: cover;
+    margin-left: -83%;
+    margin-top: 10%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 3px solid green;
+    border-radius: 20px;
+    /* height: 732px; */
+
+}
+
+#display {
+    border-radius: 20px;
+    background-color: rgb(206, 251, 46);
+    width: 245px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    height: 60px;
+    margin-top: 20px;
+    border: 2px solid rgb(15, 14, 14);
+    color: black;
+    background: transparent;
+    color: rgb(250, 17, 17);
+}
+
+.btnDesign {
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid rgb(20, 49, 242);
+    margin: 1.5px;
+    background: transparent;
+    color: rgb(250, 17, 17);
+}
+
+.operatorDesign {
+    width: 55px;
+    height: 55px;
+    padding-top: -1px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(20, 49, 242);
+    border-radius: 30px;
+    margin: 1.5px;
+    background: transparent;
+    color: rgb(250, 17, 17);
+}
+
+.zero {
+    width: 110px;
+    height: 55px;
+    padding-top: -1px;
+    border: 2px solid rgb(20, 49, 242);
+    ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 1.5px;
+    background: transparent;
+    color: rgb(250, 17, 17);
+}
+
+.btnDesign:hover {
+    background-color: aqua;
+    cursor: pointer;
+
+}
+
+.zero:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.operatorDesign:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+
+.box p {
+    margin-left: 206px;
+    margin-top: 7px;
+    line-height: 1px;
+    font-size: 12px;
+}
+
+head link typpe[fav-icon] {
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(69, 101, 104);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    /* .calci {
+        margin: 0;
+        padding: 0;
+
+    } */
+
+    .box {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-transform: uppercase;
+    }
+
+    .box p {
+        margin-bottom: 10px;
+        padding: 0;
+        display: block;
+        color: rgb(185, 242, 30);
+    }
+
+    p {
+        text-align: center;
+        font-size: 38px;
+        color: red;
+    }
+
+    .calci {
+
+        padding: 4px;
+        margin: 3px;
+        height: 732px;
+        margin-top: 8px;
+
+    }
+
+    #display {
+        margin-top: 210px;
+        width: 90%;
+    }
+
+    .btnDesign {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .operatorDesign {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .zero {
+        width: 140px;
+        height: 55px;
+    }
+}
