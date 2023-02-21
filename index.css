@@ -9,7 +9,7 @@ body {
 .calci {
     width: 500px;
     /* background-color: black; */
-    background-image: url('./women.jpg.jfif);
+    background-image: url('./women.jpg.jfif');
     background-size: cover;
     margin-left: -83%;
     margin-top: 10%;
